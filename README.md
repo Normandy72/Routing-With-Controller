@@ -28,3 +28,11 @@ __home.html__
 <div> content </div>
 <div> content </div>
 ```
+***
+#### _Summary_
+* We can declare a controller that is responsible for the state's template right in the state's declaration.
+* Use
+    * `controller: 'CtrlName as label'` or
+    * `controller: ctrlName, controllerAs: 'label'`;
+* In the template, use label.data as usual with controllerAs syntax. 
+***
